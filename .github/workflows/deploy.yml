@@ -29,6 +29,3 @@ jobs:
         run: |
             source venv/bin/activate
             pytest tests/
-
-      - name: Run tests
-        run: pytest tests/
